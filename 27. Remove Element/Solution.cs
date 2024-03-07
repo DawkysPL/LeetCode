@@ -59,7 +59,40 @@ namespace _27._Remove_Element
     {
         public static int RemoveElement(int[] nums, int val)
         {
+            int count = 0;
 
+            for(int i=0; i < nums.Length; i++)
+            {
+                if (nums[i] != val)
+                {
+                    nums[count] = nums[i];
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
+        //Two Pointers Approach
+        public static int RemoveElement2(int[] nums, int val)
+        {
+            int startPointer = 0;
+            int endPointer = nums.Length - 1;
+            int count = 0;
+
+            while (startPointer <= endPointer)
+            {
+                if (nums[startPointer] != val)
+                {
+                    startPointer++;
+                    count++;
+                    continue;
+                }
+
+                nums[startPointer] = nums[endPointer];
+                endPointer--;
+            }
+            return count;
         }
     }
 }

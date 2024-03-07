@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88.Merge.Sorted.Array", "88.Merge.Sorted.Array\88.Merge.Sorted.Array.csproj", "{C342A952-C5B7-4AD4-BFAB-A830E240109E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. Remove Element", "27. Remove Element\27. Remove Element.csproj", "{E2534B40-173B-4809-BA69-2CB64D8D1783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27. Remove Element", "27. Remove Element\27. Remove Element.csproj", "{E2534B40-173B-4809-BA69-2CB64D8D1783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Remove Duplicates from Sorted Array", "26. Remove Duplicates from Sorted Array\26. Remove Duplicates from Sorted Array.csproj", "{D5284539-9392-4C7E-A380-7AA83BB36743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E2534B40-173B-4809-BA69-2CB64D8D1783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2534B40-173B-4809-BA69-2CB64D8D1783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2534B40-173B-4809-BA69-2CB64D8D1783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5284539-9392-4C7E-A380-7AA83BB36743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5284539-9392-4C7E-A380-7AA83BB36743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5284539-9392-4C7E-A380-7AA83BB36743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5284539-9392-4C7E-A380-7AA83BB36743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
